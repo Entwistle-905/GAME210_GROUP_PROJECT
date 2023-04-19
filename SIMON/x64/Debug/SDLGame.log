@@ -1,0 +1,49 @@
+﻿  Frog.cpp
+  GameManager.cpp
+  Graphics.cpp
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(104,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(105,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(106,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(107,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(122,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(123,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(124,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(125,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,99): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,85): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,71): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,49): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(149,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(150,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EventHandler.cpp
+  main.cpp
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Source\main.cpp(19,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ColourBlock.cpp
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Source\Objects\ColourBlock.cpp(27,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Source\Objects\ColourBlock.cpp(28,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+Frog.obj : error LNK2019: SDL_RenderCopy"public: void __cdecl Frog::display(void)" (?display@Frog@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2001: 확인할 수 없는 외부 기호 SDL_RenderCopy
+Graphics.obj : error LNK2019: SDL_FreeSurface"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_CreateWindow"public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_CreateRenderer"public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_CreateTextureFromSurface"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_SetRenderDrawColor"public: static void __cdecl Graphics::SetColor(struct Colour)" (?SetColor@Graphics@@SAXUColour@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_RenderClear"public: static void __cdecl Graphics::StartRender(void)" (?StartRender@Graphics@@SAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_RenderDrawLine"public: static void __cdecl Graphics::DrawLine(struct Transform2D,struct Vec2D)" (?DrawLine@Graphics@@SAXUTransform2D@@UVec2D@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_RenderDrawRect"public: static void __cdecl Graphics::DrawRect(struct Transform2D,struct Vec2D,bool)" (?DrawRect@Graphics@@SAXUTransform2D@@UVec2D@@_N@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_RenderFillRect"public: static void __cdecl Graphics::DrawRect(struct Transform2D,struct Vec2D,bool)" (?DrawRect@Graphics@@SAXUTransform2D@@UVec2D@@_N@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_RenderPresent"public: static void __cdecl Graphics::EndRender(void)" (?EndRender@Graphics@@SAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_DestroyTexture"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: SDL_Delay"public: static void __cdecl Graphics::EndRender(void)" (?EndRender@Graphics@@SAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2001: 확인할 수 없는 외부 기호 SDL_Delay
+Graphics.obj : error LNK2019: IMG_Load"public: static void __cdecl Graphics::LoadFrog(class Frog * const)" (?LoadFrog@Graphics@@SAXQEAVFrog@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: TTF_Init"public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: TTF_OpenFont"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Graphics.obj : error LNK2019: TTF_RenderText_Solid"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+EventHandler.obj : error LNK2019: SDL_PollEvent"public: static bool __cdecl EventHandler::Update(void)" (?Update@EventHandler@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: SDL_QuitSDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+SDL2.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+SDL2main.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\x64\Debug\SIMON.exe : fatal error LNK1120: 20개의 확인할 수 없는 외부 참조입니다.

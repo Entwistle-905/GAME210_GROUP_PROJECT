@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{7ad5c615-454f-4996-9b8a-80d529d4ffb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{55f39cef-180f-4e9f-8e8b-f2c09f00ec0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{e8c0bd4e-ba7e-45f4-9492-7e6f05cd9716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sprites">
+      <UniqueIdentifier>{d6616596-0dcc-45a2-9fa3-e77d17fb7df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Etc">
+      <UniqueIdentifier>{3e69fd8a-3b18-4ef2-8d5c-5199ba74ace8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Musics">
+      <UniqueIdentifier>{b5b15184-485b-45d3-aa2d-d48073b634c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\ColourBlock.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EventHandler.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Frog.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Objects\ColourBlock.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\ObjData.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EventHandler.h">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Frog.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Mario-Kart-DS.ttf">
+      <Filter>Resource Files\Etc</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\background.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog1_jumping.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog1_standing.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog2_jumping.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog2_standing.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog3_jumping.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog3_standing.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog4_jumping.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog4_standing.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog5_jumping.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog5_standing.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="..\..\Sprites\frog1_head.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="..\..\Sprites\frog2_head.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="..\..\Sprites\frog3_head.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="..\..\Sprites\frog4_head.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+    <Image Include="Resources\frog5_head.png">
+      <Filter>Resource Files\Sprites</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\frog.mp3">
+      <Filter>Resource Files\Musics</Filter>
+    </Media>
+    <Media Include="Resources\Oneul - when spring comes.mp3">
+      <Filter>Resource Files\Musics</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

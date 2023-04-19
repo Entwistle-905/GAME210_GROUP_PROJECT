@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\7n2q1\Desktop\JamesGroupProject\GroupProject\SIMON\Source\main.cpp(19,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SDLGame.vcxproj -> C:\Users\7n2q1\Desktop\JamesGroupProject\GroupProject\Debug\SIMON.exe

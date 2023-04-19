@@ -20,6 +20,7 @@ public:
 
 	static void LoadFrog(Frog frog[]);
 	static void LoadFrogIcon(Frog frogIcon, int x, int y, int n);
+	static void loadBg();
 
 	//drawing specific functions
 	static void SetColor(Colour color);
@@ -36,6 +37,7 @@ private:
 	static SDL_Window* window;
 	static SDL_Renderer* renderer;
 	static SDL_Texture* texture;
+	static SDL_Texture* bgImage;
 
 };
 

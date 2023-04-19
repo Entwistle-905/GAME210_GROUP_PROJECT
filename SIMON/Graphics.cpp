@@ -3,6 +3,15 @@
 SDL_Window* Graphics::window;
 SDL_Renderer* Graphics::renderer;
 SDL_Texture* Graphics::texture;
+SDL_Texture* Graphics::bgImage;
+
+void Graphics::loadBg()
+{
+	SDL_Surface* bg;
+	bg = IMG_Load("./Resources/background.png");
+	bgImage = SDL_CreateTextureFromSurface(renderer, bg);
+	SDL_FreeSurface(bg);
+}
 
 bool Graphics::Init()
 {
@@ -32,6 +41,8 @@ bool Graphics::Init()
 
 	TTF_Init();
 
+	Graphics::loadBg();
+
 	return true;
 }
 
@@ -47,18 +58,13 @@ void Graphics::StartRender()
 	//SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x00, 0xFF);
 	SDL_RenderClear(renderer);
 
-	SDL_Surface* bg;
-	bg = IMG_Load("./Resources/background.png");
-	texture = SDL_CreateTextureFromSurface(renderer, bg);
-	SDL_FreeSurface(bg);
-
 	SDL_Rect bgPos;
 	bgPos.x = 0;
 	bgPos.y = 0;
 	bgPos.w = 960;
 	bgPos.h = 665;
 
-	SDL_RenderCopy(renderer, texture, NULL, &bgPos);
+	SDL_RenderCopy(renderer, bgImage, NULL, &bgPos);
 
 }
 

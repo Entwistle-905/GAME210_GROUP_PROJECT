@@ -1,3 +1,32 @@
-﻿  main.cpp
-C:\Users\7n2q1\Desktop\JamesGroupProject\GroupProject\SIMON\Source\main.cpp(19,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  SDLGame.vcxproj -> C:\Users\7n2q1\Desktop\JamesGroupProject\GroupProject\Debug\SIMON.exe
+﻿  Frog.cpp
+  GameManager.cpp
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\GameManager.cpp(63,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\GameManager.cpp(65,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\GameManager.cpp(67,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\GameManager.cpp(69,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\GameManager.cpp(71,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Graphics.cpp
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(159,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(160,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(161,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(162,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(177,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(178,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(179,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(180,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(205,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(206,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  EventHandler.cpp
+  main.cpp
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Source\main.cpp(19,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ColourBlock.cpp
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Source\Objects\ColourBlock.cpp(27,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Source\Objects\ColourBlock.cpp(28,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\GameManager.cpp(45): warning C4715: 'GameManager::checkInput': not all control paths return a value
+  LINK : C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\Debug\SIMON.exe not found or not built by the last incremental link; performing full link
+  SDLGame.vcxproj -> C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\Debug\SIMON.exe

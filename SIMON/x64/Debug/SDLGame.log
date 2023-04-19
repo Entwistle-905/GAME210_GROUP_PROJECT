@@ -1,49 +1,52 @@
-﻿  Frog.cpp
-  GameManager.cpp
-  Graphics.cpp
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(104,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(105,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(106,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(107,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(122,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(123,31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(124,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(125,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,99): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,85): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,71): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(127,49): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(149,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Graphics.cpp(150,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  EventHandler.cpp
-  main.cpp
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Source\main.cpp(19,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  ColourBlock.cpp
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Source\Objects\ColourBlock.cpp(27,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\SIMON\Source\Objects\ColourBlock.cpp(28,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
-Frog.obj : error LNK2019: SDL_RenderCopy"public: void __cdecl Frog::display(void)" (?display@Frog@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2001: 확인할 수 없는 외부 기호 SDL_RenderCopy
-Graphics.obj : error LNK2019: SDL_FreeSurface"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_CreateWindow"public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_CreateRenderer"public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_CreateTextureFromSurface"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_SetRenderDrawColor"public: static void __cdecl Graphics::SetColor(struct Colour)" (?SetColor@Graphics@@SAXUColour@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_RenderClear"public: static void __cdecl Graphics::StartRender(void)" (?StartRender@Graphics@@SAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_RenderDrawLine"public: static void __cdecl Graphics::DrawLine(struct Transform2D,struct Vec2D)" (?DrawLine@Graphics@@SAXUTransform2D@@UVec2D@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_RenderDrawRect"public: static void __cdecl Graphics::DrawRect(struct Transform2D,struct Vec2D,bool)" (?DrawRect@Graphics@@SAXUTransform2D@@UVec2D@@_N@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_RenderFillRect"public: static void __cdecl Graphics::DrawRect(struct Transform2D,struct Vec2D,bool)" (?DrawRect@Graphics@@SAXUTransform2D@@UVec2D@@_N@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_RenderPresent"public: static void __cdecl Graphics::EndRender(void)" (?EndRender@Graphics@@SAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_DestroyTexture"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: SDL_Delay"public: static void __cdecl Graphics::EndRender(void)" (?EndRender@Graphics@@SAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-main.obj : error LNK2001: 확인할 수 없는 외부 기호 SDL_Delay
-Graphics.obj : error LNK2019: IMG_Load"public: static void __cdecl Graphics::LoadFrog(class Frog * const)" (?LoadFrog@Graphics@@SAXQEAVFrog@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: TTF_Init"public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: TTF_OpenFont"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-Graphics.obj : error LNK2019: TTF_RenderText_Solid"public: static void __cdecl Graphics::DrawText(char const *,float,float,int,int)" (?DrawText@Graphics@@SAXPEBDMMHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
-EventHandler.obj : error LNK2019: SDL_PollEvent"public: static bool __cdecl EventHandler::Update(void)" (?Update@EventHandler@@SA_NXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-main.obj : error LNK2019: SDL_QuitSDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
-MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
-SDL2.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
-SDL2main.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
-C:\Users\Graphiste\Desktop\JamesGroupProject\GroupProject\x64\Debug\SIMON.exe : fatal error LNK1120: 20개의 확인할 수 없는 외부 참조입니다.
+﻿  Graphics.cpp
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(159,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(160,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(161,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(162,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(177,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(178,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(179,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(180,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,99): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(182,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(205,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\SIMON\Graphics.cpp(206,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+Frog.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl Frog::display(void)" (?display@Frog@@QEAAXXZ)
+Graphics.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+GameManager.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: void __cdecl GameManager::loadMedia(void)" (?loadMedia@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: void __cdecl GameManager::loadMedia(void)" (?loadMedia@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl GameManager::cleanUp(void)" (?cleanUp@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_LoadWAV_RW referenced in function "public: void __cdecl GameManager::loadMedia(void)" (?loadMedia@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "public: void __cdecl GameManager::loadMedia(void)" (?loadMedia@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_FreeChunk referenced in function "public: void __cdecl GameManager::cleanUp(void)" (?cleanUp@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "public: void __cdecl GameManager::cleanUp(void)" (?cleanUp@GameManager@@QEAAXXZ)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function "public: void __cdecl GameManager::playMusic(struct _Mix_Music *)" (?playMusic@GameManager@@QEAAXPEAU_Mix_Music@@@Z)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_PauseMusic referenced in function "public: void __cdecl GameManager::playMusic(struct _Mix_Music *)" (?playMusic@GameManager@@QEAAXPEAU_Mix_Music@@@Z)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_ResumeMusic referenced in function "public: void __cdecl GameManager::playMusic(struct _Mix_Music *)" (?playMusic@GameManager@@QEAAXPEAU_Mix_Music@@@Z)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_PausedMusic referenced in function "public: void __cdecl GameManager::playMusic(struct _Mix_Music *)" (?playMusic@GameManager@@QEAAXPEAU_Mix_Music@@@Z)
+GameManager.obj : error LNK2019: unresolved external symbol Mix_PlayingMusic referenced in function "public: void __cdecl GameManager::playMusic(struct _Mix_Music *)" (?playMusic@GameManager@@QEAAXPEAU_Mix_Music@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static void __cdecl Graphics::LoadFrog(class Frog * const)" (?LoadFrog@Graphics@@SAXQEAVFrog@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: static void __cdecl Graphics::LoadFrog(class Frog * const)" (?LoadFrog@Graphics@@SAXQEAVFrog@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: static void __cdecl Graphics::SetColor(struct Colour)" (?SetColor@Graphics@@SAXUColour@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: static void __cdecl Graphics::StartRender(void)" (?StartRender@Graphics@@SAXXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderDrawLine referenced in function "public: static void __cdecl Graphics::DrawLine(struct Transform2D,struct Vec2D)" (?DrawLine@Graphics@@SAXUTransform2D@@UVec2D@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderDrawRect referenced in function "public: static void __cdecl Graphics::DrawRect(struct Transform2D,struct Vec2D,bool)" (?DrawRect@Graphics@@SAXUTransform2D@@UVec2D@@_N@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "public: static void __cdecl Graphics::DrawRect(struct Transform2D,struct Vec2D,bool)" (?DrawRect@Graphics@@SAXUTransform2D@@UVec2D@@_N@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: static void __cdecl Graphics::EndRender(void)" (?EndRender@Graphics@@SAXXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: static void __cdecl Graphics::printText(char const *,float,float,int,int)" (?printText@Graphics@@SAXPEBDMMHH@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: static void __cdecl Graphics::EndRender(void)" (?EndRender@Graphics@@SAXXZ)
+main.obj : error LNK2001: unresolved external symbol SDL_Delay
+Graphics.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: static void __cdecl Graphics::LoadFrog(class Frog * const)" (?LoadFrog@Graphics@@SAXQEAVFrog@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: static bool __cdecl Graphics::Init(void)" (?Init@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: static void __cdecl Graphics::printText(char const *,float,float,int,int)" (?printText@Graphics@@SAXPEBDMMHH@Z)
+Graphics.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "public: static void __cdecl Graphics::printText(char const *,float,float,int,int)" (?printText@Graphics@@SAXPEBDMMHH@Z)
+Graphics.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "public: static void __cdecl Graphics::cleanUpTTF(void)" (?cleanUpTTF@Graphics@@SAXXZ)
+EventHandler.obj : error LNK2019: unresolved external symbol XInputGetState referenced in function "public: static void __cdecl EventHandler::Update(class GameManager *)" (?Update@EventHandler@@SAXPEAVGameManager@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\7h2d1\Desktop\programming fundamentals 2\Project\x64\Debug\SIMON.exe : fatal error LNK1120: 32 unresolved externals
